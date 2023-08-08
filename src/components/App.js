@@ -4,6 +4,7 @@ import './../styles/App.css';
 import {useState} from 'react'
 
 const App = () => {
+  let [name, setName] = useState('');
   return (
     <div>
          <h1>Enter your name : </h1>
